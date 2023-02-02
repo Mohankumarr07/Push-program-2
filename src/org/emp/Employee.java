@@ -20,6 +20,9 @@ public class Employee {
 	private void empAddress() {
 		System.out.println("empAddress=4/20 salem");
 	}
+	private void empAddress1() {
+		System.out.println("empAddress=1/128 mullukurichi");	
+	}
 	public static void main(String args[]) {
 		
 		Employee E=new Employee();
@@ -30,6 +33,7 @@ public class Employee {
 		E.empPhone();
 		E.empEmail();
 		E.empAddress();
+		E.empAddress1();
 		
 		
 		
